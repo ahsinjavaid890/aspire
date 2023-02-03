@@ -9325,4 +9325,16 @@ margin: auto;
 }
 
 
+.bullets li{
+    list-style: disc !important;
+    color: #777 !important;
+    font-size: 17px !important;
+  }
+  .bullets{
+    padding-left: 20px;
+  }
+  #read-more {
+    display: none;
+    margin-top: -1px;
+  }
 
