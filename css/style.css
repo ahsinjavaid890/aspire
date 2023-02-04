@@ -1007,7 +1007,7 @@ border: 2px solid orange;
 	margin-bottom: 20px;
 }
 .slider-content h2 {
-	font-size: 72px;
+	font-size: 55px;
 	color: #010f2e;
 	letter-spacing: 1.0px;
 	line-height: 1.2;
@@ -1561,11 +1561,14 @@ margin: 0 10px 15px;
     margin-bottom: 15px;
 }
 .section-title h2 {
-	font-size: 60px;
-	padding-bottom: 0;
-	margin-bottom: 0px !important;
-	position: relative;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0px !important;
+    position: relative;
+    font-weight: 500;
 }
+
+
 .section-title h2::before {
 	content: "";
 	position: absolute;
@@ -2208,6 +2211,19 @@ margin-right: 30px;
     margin-bottom: 30px;
 }
 .services-08-thumb i {
+    width: 106px;
+    height: 106px;
+    border-width: 2px;
+    border-color: orange;
+    border-style: solid;
+    display: inline-block;
+    font-size: 48px;
+    color: orange;
+    line-height: 112px;
+    border-radius: 50%;
+    text-align: center;
+}
+.services-08-thumb a {
     width: 106px;
     height: 106px;
     border-width: 2px;
@@ -9324,7 +9340,7 @@ margin: auto;
     font-size: 24px;
 }
 
-
+/* /// changes /// */
 .bullets li{
     list-style: disc !important;
     color: #777 !important;
@@ -9335,6 +9351,91 @@ margin: auto;
   }
   #read-more {
     display: none;
-    margin-top: -1px;
   }
 
+.we-offers{
+    margin-top: -25px !important;
+}
+.footer-top{
+    height: 380px;
+}
+.services-08-thumb a img{
+    width: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
+.services-08-thumb a:hover{
+    background-color: orange;
+}
+.services-08-thumb a img:hover{
+    filter: brightness(0) invert(1);
+  }
+  .service-video{
+    position: absolute;
+    left: 220px;
+    top: -565px;
+  }
+  .servies-header {
+    background-color: #efffce;
+    border-radius: 20px;
+    padding: 70px 80px;
+    background-size: cover;
+}
+.servies-header .breadcrumb {
+    display: inline-block;
+    padding: 0;
+    text-transform: capitalize;
+    color: #7E7E7E;
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    margin: 0;
+    border-radius: 0;
+}
+.servies-header .breadcrumb a {
+    color: #534787;
+    text-decoration: none;
+}
+.servies-header .breadcrumb span {
+    position: relative;
+    text-align: center;
+    /* padding: 0px 10px; */
+}
+.servies-header h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+ .contact-us-form label{
+    font-size: 20px ;
+    color: black;
+ }
+
+ .contact-us-form  input{
+    padding: 20px 10px !important;
+ }
+ .contact-us-form h1{
+    font-size: 30px;
+    color: #534787;
+    font-weight: 700;
+ }
+ .contact-us-form button{
+    border-radius: 80px;
+    background-color: #534787;
+    color: white;
+    font-size: 22px;
+ }
+
+ .contact-us-form input:focus{
+    border-color: #534787 !important;
+    outline: none !important;
+    box-shadow: none !important;
+ }
+ .contact-us-form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+ .contact-us-details{
+    background-color:  #1e0253;
+ }
