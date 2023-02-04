@@ -9370,11 +9370,7 @@ margin: auto;
 .services-08-thumb a img:hover{
     filter: brightness(0) invert(1);
   }
-  .service-video{
-    position: absolute;
-    left: 220px;
-    top: -565px;
-  }
+ 
   .servies-header {
     background-color: #efffce;
     border-radius: 20px;
@@ -9439,3 +9435,9 @@ margin: auto;
  .contact-us-details{
     background-color:  #1e0253;
  }
+ 
+@media screen and (min-width:2000px) and (max-width:2200px) {
+    .header-row{
+        margin-top: -150px !important; 
+    } 
+}
