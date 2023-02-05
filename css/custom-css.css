@@ -63,6 +63,14 @@ div.d-flex{
  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
 }
+.coching_area1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius:10px;
+}
+.coching_area1:hover{
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
 .services-08-content{
  padding:15px;   
 }
@@ -94,8 +102,8 @@ div.d-flex{
 }
 
 .logo img{
-    width:120px;
-    height:120px;
+    width:175px;
+    height:150px;
    
 }
 .content_section{
