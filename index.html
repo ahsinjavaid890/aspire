@@ -198,7 +198,7 @@
                                          <div class="slider-btn mt-30">                                          
                                             <button href="#" id="readmore" class="w-[140px] h-[67px] text-white text-xl rounded-full bg-orange-500 mr-15">Read More</button>
                                             <button href="services.html" class="w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15">Contact us</button>
-                                            <a href="img/catalog.mp4" class="  popup-youtube w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15">Video</a>
+                                            <a href="img/catalog.mp4" class="  popup-youtube w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15">Qucik Tour</a>
                                         </div>   
                                         
                                                               
@@ -523,6 +523,15 @@ $('#readmore').click(function(){
                     fixedContentPos: false
                 });
             });
+
+
+            $(document).ready(function () {
+  
+  $(".one").click(function (){
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+});
+
             </script>
     </body>
 </html>

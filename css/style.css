@@ -9414,12 +9414,12 @@ margin: auto;
  }
  .contact-us-form h1{
     font-size: 30px;
-    color: #534787;
+    color: #5d5992;
     font-weight: 700;
  }
  .contact-us-form button{
     border-radius: 80px;
-    background-color: #534787;
+    background-color: #5d5992;
     color: white;
     font-size: 22px;
  }
@@ -9438,7 +9438,7 @@ margin: auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  }
  .contact-us-details{
-    background-color: #8850f3;
+    background-color: #5d5992;
  }
  
 @media screen and (min-width:2000px) and (max-width:2200px) {
@@ -9483,6 +9483,10 @@ footer img{
     left: 0;
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 8px #ff9800 !important;
+    box-shadow: 0 0 8px #e5a342 !important;
     background: #c3baba !important;
+    border-radius: 20px;
+}
+.active{
+    color: orange !important;
 }
