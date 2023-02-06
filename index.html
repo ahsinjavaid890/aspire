@@ -26,8 +26,6 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/custom-css.css">
-        
-
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.tailwindcss.com"></script>
 
@@ -74,7 +72,7 @@
             <div class="container">
                 <div class="second-menu">
                     <div class="row align-items-center">
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-2 col-lg-2 head-logo-mobile">
                             <div class="logo">
                                 <a href="index.html"><img src="img/aspire.jpg"alt="logo"></a>
                             </div>
@@ -198,10 +196,15 @@
                                          <div class="slider-btn mt-30">                                          
                                             <button href="#" id="readmore" class="w-[140px] h-[67px] text-white text-xl rounded-full bg-orange-500 mr-15">Read More</button>
                                            <a href="contact-us.html"> <button class="w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15">Contact us</button></a>
-                                            <a href="img/catalog.mp4" class="  popup-youtube w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15">Qucik Tour</a>
+                                            <a href="img/catalog.mp4" id="video1" class="  popup-youtube w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15" >Quick Tour</a>
+                                            <a href="" class=" mobile-quick w-[140px] h-[67px]  text-xl rounded-full border-2 border-orange-500 text-orange-500 mr-15" data-toggle="modal" data-target="#exampleModal">Quick Tour</a>
+                                          
+
+                                            
                                         </div>   
                                         
-                                                              
+                                     
+                                          
                                     </div>
                                 </div>
                                 <div class="col-lg-5 col-md-5 pb-0 pt-2">
@@ -224,6 +227,24 @@
                     
                
             </section>
+            <div class="modal mobile-quick-modal fade bg-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog " role="document">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header border-0">
+                      <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body boder-0">
+                      <video controls>
+                        <source src="img/catalog.mp4">
+                      </video>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              
             <!-- slider-area-end -->
             <!-- <section  class="services-09" >
                 <div class="container">
@@ -253,6 +274,7 @@
                     <div class="row">   
                         <div class="col-lg-12 we-offers">
                             <div class="section-title center-align mb-4 text-center">
+                                <h3 class="">list of texts</h3>
                                 <h2>
                                    What Do We Offer?
                                 </h2>
@@ -465,6 +487,7 @@
             </div>
         </div>
     </footer>
+    
     <!-- footer-end -->
 
 
@@ -489,6 +512,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/element-in-view.js"></script>
         <script src="js/main.js"></script>
+       
         <script>
             $('#readmore').on('click', function() {
     if ($('#read-more').css('display') == 'none') {
@@ -523,14 +547,7 @@ $('#readmore').click(function(){
                 });
             });
 
-
-            $(document).ready(function () {
-  
-  $(".one").click(function (){
-    $(this).addClass("active").siblings().removeClass("active");
-  });
-});
-
             </script>
+          
     </body>
 </html>

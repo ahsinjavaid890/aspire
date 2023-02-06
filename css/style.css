@@ -9450,6 +9450,7 @@ footer img{
     border: 5px solid white;
     border-radius: 100%;
     height: 300px;
+    background-color: white;
 }
 .footer-social a{
     background-color: orange;
@@ -9490,3 +9491,73 @@ footer img{
 .active{
     color: orange !important;
 }
+@media screen  and (min-width:200px) and (max-width:767px) {
+    .footer-top{
+        height:100% !important ;
+    }
+    .mobile-menu{
+        margin-top: -70px;
+    }
+    .head-logo-mobile{
+        margin-top: -30px !important;
+    }
+    .slider-content h2 {
+        font-size: 20px !important;
+    }
+    /* .slider-content{
+        margin-top: -100px;
+    } */
+    .slider-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .slider-btn button{
+        margin-bottom: 10px;
+    }
+    .slider-btn .popup-youtube {
+        padding: 18.5px 15px 21px 20px;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+    .we-offers{
+        margin-top: 10px !important;
+    }
+    .popup-youtube{
+        display: none;
+    }
+    .slider-btn .mobile-quick {
+        padding: 18.5px 15px 21px 20px;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+    
+    .slider-btn .mobile-quick{
+        display: block;
+    }
+    .servies-header h1 {
+        font-size: 20px;
+        font-weight: 500;
+}
+}
+.we-offers h3{
+    font-size: 20px;
+    color: #ffa500 !important;
+    
+}
+
+
+.mobile-quick{
+    display: none;
+}
+.mobile-quick-modal .modal-body{
+    box-shadow: 0 0 8px #e5a342 !important;
+    border-radius: 10px;
+}
+.mobile-quick-modal .close
+    {
+        font-size: 30px;
+        color: white;
+        opacity: 1;
+    }
+    
+
